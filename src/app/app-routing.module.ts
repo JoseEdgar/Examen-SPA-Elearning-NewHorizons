@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ErrorpageComponent } from './core/errorpage/errorpage.component';
 import { LayoutComponent } from './layout/layout.component';
 
 const routes: Routes = [
@@ -29,6 +30,10 @@ const routes: Routes = [
         loadChildren: () => import('./modules/administrador/administrador.module').then(m => m.AdministradorModule)
       }
     ]
+  },
+  {
+    path: '**',
+    component: ErrorpageComponent
   }
 ];
 
