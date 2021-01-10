@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-curso',
+  selector: 'app-shared-curso',
   templateUrl: './curso.component.html',
   styleUrls: ['./curso.component.scss']
 })

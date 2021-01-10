@@ -6,13 +6,15 @@ import { CursoComponent } from './pages/curso/curso.component';
 import { CursocategoriacontainerComponent } from './components/cursocategoriacontainer/cursocategoriacontainer.component';
 import { CursocontainerComponent } from './components/cursocontainer/cursocontainer.component';
 import { CursodetallepageComponent } from './pages/cursodetallepage/cursodetallepage.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
   declarations: [CursoComponent, CursocategoriacontainerComponent, CursocontainerComponent, CursodetallepageComponent],
   imports: [
     CommonModule,
-    CursoRoutingModule
+    CursoRoutingModule,
+    SharedModule
   ]
 })
 export class CursoModule { }
