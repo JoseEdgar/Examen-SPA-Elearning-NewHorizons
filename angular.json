@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Examen-SPA-Elearning-NewHorizons"
+    }
+  },
+  "defaultProject": "Examen-SPA-Elearning-NewHorizons",
+  "cli": {
+    "analytics": "86714f33-830e-484d-b928-8443c8d55590"
+  }
 }
