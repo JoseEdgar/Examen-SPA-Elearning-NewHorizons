@@ -1,3 +1,10 @@
 <div class="container" style="width: 80%;">
-    <p>instructorcontainer works!</p>
+    <span class="border">
+        <div style="text-align: center;">
+            <h1 class="display-2"> INSTRUCTORES DESTACADOS </h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-2">
+            <app-instructor *ngFor="let item of varinstructor" [instructorinput]="item"></app-instructor>
+        </div>
+    </span>
 </div>

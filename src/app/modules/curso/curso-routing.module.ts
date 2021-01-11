@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CursoComponent } from './pages/curso/curso.component';
+import { CursoComponent } from '../../shared/components/curso/curso.component';
 
 const routes: Routes = [
   {

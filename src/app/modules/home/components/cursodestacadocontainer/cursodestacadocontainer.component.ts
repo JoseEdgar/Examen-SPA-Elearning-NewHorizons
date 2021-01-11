@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CursoService } from '../../services/curso.service';
+import { ICurso } from '../../interface/cursointerface';
 
 @Component({
   selector: 'app-cursodestacadocontainer',
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CursodestacadocontainerComponent implements OnInit {
 
-  constructor() { }
+  varcursodestacado: ICurso[] = [];
+
+  constructor(private cursodestacadoserv: CursoService) { }
 
   ngOnInit(): void {
   }

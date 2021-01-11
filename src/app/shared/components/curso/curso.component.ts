@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ICurso } from '../../../modules/home/interface/cursointerface';
 
 @Component({
   selector: 'app-shared-curso',
@@ -6,12 +7,12 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./curso.component.scss']
 })
 export class CursoComponent implements OnInit {
-  @Input() curso: any[];
-  @Input() coverWitdh: number;
+  @Input() cursoinput: ICurso;
 
   constructor() { }
 
   ngOnInit(): void {
+         
   }
 
 }
